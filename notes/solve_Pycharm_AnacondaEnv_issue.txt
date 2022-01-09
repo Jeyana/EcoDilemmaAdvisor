@@ -1,0 +1,20 @@
+1. Create new environment in PyCharm terminal or in Anaconda Prompt:
+$ conda create --name ENVNAME python=3.9
+Check where it is:
+$ conda env list
+
+2. In PyCharm, go to File -> Settings -> Tools -> Terminal.
+
+3. Replace the value in "Shell path" with
+cmd.exe "/K" C:\ProgramData\Anaconda3\Scripts\activate.bat path_to_your_environment
+
+Source: https://stackoverflow.com/questions/48924787/pycharm-terminal-doesnt-activate-conda-environment
+
+***
+
+The above only does this: when you open the terminal in PyCharm, you're in the correct environment.
+But the project is still run in the default environment, not the one you created with Anaconda. To fix this:
+
+1. File -> Settings -> Project: ... -> Python Interpreter
+2. Click on the Settings icon next to the combo box -> Add... -> Conda Environment
+3. If the environment was already created in the terminal, choose Existing Environment

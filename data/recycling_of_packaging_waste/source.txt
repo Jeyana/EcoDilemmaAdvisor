@@ -1,0 +1,6 @@
+Eurostat
+https://ec.europa.eu/eurostat/web/circular-economy/indicators/main-tables
+
+Waste management -> Recycling rate of packaging waste by type of packaging (cei_wm020)
+
+Explore: https://ec.europa.eu/eurostat/databrowser/view/cei_wm020/default/table?lang=en

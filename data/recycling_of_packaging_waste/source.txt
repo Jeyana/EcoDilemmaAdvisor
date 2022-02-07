@@ -4,3 +4,11 @@ https://ec.europa.eu/eurostat/web/circular-economy/indicators/main-tables
 Waste management -> Recycling rate of packaging waste by type of packaging (cei_wm020)
 
 Explore: https://ec.europa.eu/eurostat/databrowser/view/cei_wm020/default/table?lang=en
+
+
+W1501 - all packaging
+W150101 - paper and cardboard packaging
+W150102 - plastic packaging
+W150103 - wood packaging
+W150104 - metallic packaging
+W150107 - glass packaging

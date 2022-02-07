@@ -1,0 +1,5 @@
+1. Run 'conda create -n venv_name' and 'conda activate venv_name', where venv_name is the name of your virtual environment.
+2. Run conda install pip (if not installed already). This will install pip to your venv directory.
+3. Run 'pip install package'. Should be installed in the current conda environment.
+Otherwise check:
+https://stackoverflow.com/questions/41060382/using-pip-to-install-packages-to-anaconda-environment

@@ -7,7 +7,6 @@ from kivy.uix.boxlayout import BoxLayout
 from kivymd.theming import ThemableBehavior
 from kivymd.uix.list import MDList, OneLineListItem, TwoLineListItem
 from kivymd.uix.button import MDRectangleFlatButton, MDIconButton, MDFloatingActionButton
-from navigation_drawer import navigation_helper
 from kivymd.uix.datatables import MDDataTable
 from kivy.metrics import dp
 from kivy.uix.anchorlayout import AnchorLayout

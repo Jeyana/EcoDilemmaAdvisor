@@ -12,8 +12,8 @@ Making a sustainable choice is usually tough for a consumer because there is rar
 
 This is where the EcoDilemmaAdvisor app comes in handy. The goal of the app is to provide the user with concise, fact-driven advice on the potential impact of their choices on the environment. The app has two main characteristics: firstly, it’s instant, which means the user gets an answer to their dilemma right away; and secondly, it’s positive, which means that the app does not blame the consumer for their choices and tries to leave options open. These two features distinguish the app from the other similar tools and websites out there.
 
-<img src="https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/high_fidelity_welcome.png" width="400"/>
-<img src="https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/high_fidelity_food_category.png" width="400"/>
+<img src="https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/high_fidelity_welcome.png" width="300"/>
+<img src="https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/high_fidelity_food_category.png" width="300"/>
 
 ## Dinosavvy on a mission
 
@@ -77,7 +77,7 @@ In order to make the calculations run faster, instead of native Python data stru
 
 ### Software development
 
-<img src="https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/app_screenshot.png" alt="App screenshot" width="400"/>
+<img src="https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/app_screenshot.png" alt="App screenshot" width="300"/>
 
 We used **Kivy** and **KivyMD** frameworks to develop the graphical user interface (GUI) for Android and iOS. Kivy is an open-source Python framework for developing mobile apps and other multitouch application software with a natural user interface (NUI). To create a more attractive GUI, KivyMD was used. KivyMD applies the concept of Material Design (developed by Google, https://material.io/design/introduction) to provide widgets that can be used with Kivy. KivyMD framework is similar to Kivy but has a more attractive GUI. In short, you can say that KivyMD depends on Kivy.
 

@@ -3,6 +3,14 @@
 **Team**: Jeyana Morozenko, Amr Othman, Emilia Azuma, Olga Schilling<br>
 **Mentor**: Bas Visser
 
+## Table of contents
+[Introduction](#introduction)<br>
+[Dinosavvy on a mission](#dinosavvy-on-a-mission)<br>
+[UX dilemmas](#ux-dilemmas)<br>
+[Data dilemmas](#data-dilemmas)<br>
+[Tools](#tools)<br>
+[Conclusion](#conclusion)
+
 ## Introduction
 
 Imagine: you are standing in the supermarket staring at cucumbers. You doubt which one is more sustainable to buy: the cucumber wrapped in plastic or the organic one without packaging, taking the risk that the latter might end up rotting in your fridge. You feel overwhelmed already while the meat section is still three rows ahead. What a pain!

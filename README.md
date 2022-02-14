@@ -34,9 +34,9 @@ Upon selecting a dilemma, the user gets an instant answer with a short explanati
 
 ## Data dilemmas
 
-We started by defining a few dilemmas and diving into the Eurostat databases to find the answers. For example, we tried to answer a question on the sustainability of washable plastic containers based on the recycling rate of packaging waste by the type of packaging, but with little success. Every eco dilemma requires analysis of dozens and dozens of data sources, and an answer based on just one dataset will hardly ever be complete.
+We started by defining a few dilemmas and diving into the [Eurostat](https://ec.europa.eu/eurostat/web/climate-change/data/database) databases to find the answers. For example, we tried to answer a question on the sustainability of washable plastic containers based on the recycling rate of packaging waste by the type of packaging, but with little success. Every eco dilemma requires analysis of dozens and dozens of data sources, and an answer based on just one dataset will hardly ever be complete.
 
-We discovered that the most suitable methodology here is Life Cycle Assessment (LCA), which means that the environmental impact of every single stage of a product life cycle is calculated: from manufacturing to recycling. Because of the complexity of these calculations, researchers and consultants use LCA-databases, such as Ecoinvent or Agri-footprint. However, since these databases are not open-source, we could not work with them directly.
+We discovered that the most suitable methodology here is Life Cycle Assessment (LCA), which means that the environmental impact of every single stage of a product life cycle is calculated: from manufacturing to recycling. Because of the complexity of these calculations, researchers and consultants use LCA-databases, such as [Ecoinvent](https://ecoinvent.org/the-ecoinvent-database/) or [Agri-footprint](https://ecoinvent.org/the-ecoinvent-database/). However, since these databases are not open-source, we could not work with them directly.
 
 We focused on what *individuals* can do to reduce their footprint. We questioned commonly given advice and dived deep into various aspects of everyday consumer decisions. In many cases, we ended up reading existing studies and meta-analyses, translating the findings into simple and friendly language, and visualizing already condensed numerical data. In addition to that, we came back to the raw data from Eurostat, which is, luckily, available for free. 
 
@@ -52,7 +52,7 @@ We had a live online meeting every week (30-60 minutes) and communicated via a S
 
 We used Figma for the entire design process, which was great for a remote team like us. It's cloud-based, just like Google Docs. This means that it's always live and up to date and that designers and developers can work on the same file, making communication very smooth.
 
-Figma is intuitive enough so that a beginner wouldn't feel intimidated (there are tons of tutorials on Youtube, both official and non-official). Still, it can also be very advanced with all the prototyping features. We're still on the journey of exploring the possibilities, and it seems there's a long way to go. It's been great to learn how easy it is to create and edit the design system with components, and how plugins (Better font Picker, Iconify, Unsplash to name a few) make the workflow much quicker. 
+Figma is intuitive enough so that a beginner wouldn't feel intimidated (there are tons of [tutorials](https://www.youtube.com/c/Figmadesign) on Youtube, both official and non-official). Still, it can also be very advanced with all the prototyping features. We're still on the journey of exploring the possibilities, and it seems there's a long way to go. It's been great to learn how easy it is to create and edit the design system with components, and how plugins (Better font Picker, Iconify, Unsplash to name a few) make the workflow much quicker. 
 
 ### Data Science 
 
@@ -78,15 +78,15 @@ In order to make the calculations run faster, instead of native Python data stru
 
 <img src="https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/app_screenshot.png" alt="App screenshot" width="300"/>
 
-We used **Kivy** and **KivyMD** frameworks to develop the graphical user interface (GUI) for Android and iOS. Kivy is an open-source Python framework for developing mobile apps and other multitouch application software with a natural user interface (NUI). To create a more attractive GUI, KivyMD was used. KivyMD applies the concept of Material Design (developed by Google, https://material.io/design/introduction) to provide widgets that can be used with Kivy. KivyMD framework is similar to Kivy but has a more attractive GUI. In short, you can say that KivyMD depends on Kivy.
+We used **Kivy** and **KivyMD** frameworks to develop the graphical user interface (GUI) for Android and iOS. Kivy is an open-source Python framework for developing mobile apps and other multitouch application software with a natural user interface (NUI). To create a more attractive GUI, KivyMD was used. KivyMD applies the concept of Material Design ([developed by Google](https://material.io/design/introduction)) to provide widgets that can be used with Kivy. KivyMD framework is similar to Kivy but has a more attractive GUI. In short, you can say that KivyMD depends on Kivy.
 
-Operating with Kivy or KivyMD is relatively straightforward, and we recommend using it for developing simple mobile applications in Python. There's a wide variety of buttons and icons to choose from. To add an icon, you can search for possible icons in https://materialdesignicons.com/; then you can copy the icon identifier and include it in your Python code. 
+Operating with Kivy or KivyMD is relatively straightforward, and we recommend using it for developing simple mobile applications in Python. There's a wide variety of buttons and icons to choose from. To add an icon, you can [search for possible icons](https://materialdesignicons.com/); then you can copy the icon identifier and include it in your Python code. 
 
 ## Conclusion
 
 In the end, we had three main puzzle pieces: a high-fidelity prototype, answers to dozens of eco dilemmas (Chicken, pork or beef? Tea or coffee? etc.), and a skeleton of the app written in Python. None of the team members had experience as a frontend developer, so we didn't manage to create a perfect mobile app in two months, but we put together a decent proof of concept.
 
-We did not expect the eco dilemmas to be that complicated and tough to answer. Looking for answers is very interesting, though, and we encourage everyone to do it — it might be depressing sometimes, but it gives you plenty of dinner table conversation topics. There are a lot of good sources online to satisfy your curiosity: Milieucentraal (in Dutch), Climate change food calculator, or this book on the carbon footprint of everything, to name a few. 
+We did not expect the eco dilemmas to be that complicated and tough to answer. Looking for answers is very interesting, though, and we encourage everyone to do it — it might be depressing sometimes, but it gives you plenty of dinner table conversation topics. There are a lot of good sources online to satisfy your curiosity: [Milieucentraal](http://www.milieucentraal.nl) (in Dutch), [Climate change food calculator](https://www.bbc.com/news/science-environment-46459714), or this [book](https://g.co/kgs/fHrmMp) on the carbon footprint of everything, to name a few. 
 
 We strongly believe the EcoDilemmaAdvisor app would be a valuable addition to every smartphone as the environmental crisis is everyone's problem, and this app is a tool to find solutions. The next steps in developing this project would include defining and researching dilemmas for other categories such as household and transport and incorporating machine learning into the app. Hopefully, this app will have a future.
 

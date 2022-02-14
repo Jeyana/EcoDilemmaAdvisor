@@ -12,6 +12,9 @@ Making a sustainable choice is usually tough for a consumer because there is rar
 
 This is where the EcoDilemmaAdvisor app comes in handy. The goal of the app is to provide the user with concise, fact-driven advice on the potential impact of their choices on the environment. The app has two main characteristics: firstly, it’s instant, which means the user gets an answer to their dilemma right away; and secondly, it’s positive, which means that the app does not blame the consumer for their choices and tries to leave options open. These two features distinguish the app from the other similar tools and websites out there.
 
+![High fidelity welcome]
+![High fidelity food category]
+
 ## Dinosavvy on a mission
 
 Starting with this idea, we set off on a journey. The Dinosavvy team of four combined the Data Science and UX Design tracks in equal proportions. However, in the middle of the project, we felt it made more sense to shift more weight to DS as UX was going well. From the very beginning, we limited the scope of the dilemmas to the food category and decided to go for quality instead of quantity in the research. Instant does not mean superficial: quite the opposite, it takes a lot of in-depth study of the subject to develop a concise and fact-driven answer. It became our main focus reflected both in the UX and DS tracks.
@@ -24,7 +27,7 @@ Having sketched our users and their stories in Figma (you can appreciate our exq
 
 To answer these questions, we started testing early on with a lo-fi prototype. The first testing round already gave us a clear idea about our user's needs and helped correct navigation errors and add useful features. For example, three out of five testers requested a related dilemmas section: even when looking up one question, you want to keep scrolling.
 
-[EcoDilemmaAdvisor low-fidelity prototype, Welcome screen + personalization]
+![EcoDilemmaAdvisor low-fidelity prototype]
 
 The testing left us no doubt: in a world where you have to enter your details to buy a movie ticket, most users are exhausted by the endless stream of accounts they have to create. As one of our testers put it: "I want to see what an app has to offer before I leave any of my personal details." That is why we gave our users an option to skip personalization and proceed to ask questions straight away. Those who opt for personalization can add their habits to reflect their lifestyles and values. The idea for the future is to adjust answers based on the user's personality with the help of machine learning.
 
@@ -46,7 +49,7 @@ We had a live online meeting every week (30-60 minutes) and communicated via a S
 
 ### UI/UX Design
 
-![EcoDilemmaAdvisor high-fidelity prototype, Dilemma screen]()
+![EcoDilemmaAdvisor high-fidelity prototype, Dilemma screens]()
 
 We used Figma for the entire design process, which was great for a remote team like us. It's cloud-based, just like Google Docs. This means that it's always live and up to date and that designers and developers can work on the same file, making communication very smooth.
 
@@ -73,6 +76,8 @@ recycling_rate = pandas.read_csv('recycling_rate.csv')
 In order to make the calculations run faster, instead of native Python data structures (list, dictionary, set, tuple) Pandas uses ndarray type from **NumPy** library. The bigger the datasets you're using, the more important speed becomes, so NumPy is also a must-know for a data scientist. In our case, the learning order was Python basics -> Matplotlib -> Pandas -> Numpy, and it worked fine.
 
 ### Software development
+
+![App screenshot]
 
 We used **Kivy** and **KivyMD** frameworks to develop the graphical user interface (GUI) for Android and iOS. Kivy is an open-source Python framework for developing mobile apps and other multitouch application software with a natural user interface (NUI). To create a more attractive GUI, KivyMD was used. KivyMD applies the concept of Material Design (developed by Google, https://material.io/design/introduction) to provide widgets that can be used with Kivy. KivyMD framework is similar to Kivy but has a more attractive GUI. In short, you can say that KivyMD depends on Kivy.
 

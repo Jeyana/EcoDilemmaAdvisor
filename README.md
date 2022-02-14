@@ -64,7 +64,7 @@ Before coming up with a concrete answer to an eco-related question, we explored 
 
 All graphs in EcoDilemmaAdvisor are made using **Matplotlib**, a Python library which, despite being huge, is easy to get started with (using [this short tutorial](https://www.earthdatascience.org/courses/scientists-guide-to-plotting-data-in-python/plot-with-matplotlib/introduction-to-matplotlib-plots/), for example).
 
-![Matplotlib bar plot from exploratory Jupyter Notebook](https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/recycling_plastic_EU_2019.png)
+![Matplotlib bar plot from exploratory Jupyter Notebook](https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/recycling_plastic_EU_2019_whiteBG.png)
 
 Matplotlib is integrated with **Pandas**, another python library with a handy DataFrame type. The latter looks very much like an Excel table and supports (almost) all imaginable operations on data. With Pandas, importing a .csv into your code is as simple as:
 

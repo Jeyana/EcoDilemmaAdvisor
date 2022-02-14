@@ -1,8 +1,7 @@
 # EcoDilemmaAdvisor by Dinosavvy
 
-#### Team: Jeyana Morozenko, Amr Othman, Emilia Azuma, Olga Schilling
-#### Mentor: Bas Visser
-
+**Team**: Jeyana Morozenko, Amr Othman, Emilia Azuma, Olga Schilling<br>
+**Mentor**: Bas Visser
 
 ## Introduction
 

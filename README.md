@@ -12,8 +12,8 @@ Making a sustainable choice is usually tough for a consumer because there is rar
 
 This is where the EcoDilemmaAdvisor app comes in handy. The goal of the app is to provide the user with concise, fact-driven advice on the potential impact of their choices on the environment. The app has two main characteristics: firstly, it’s instant, which means the user gets an answer to their dilemma right away; and secondly, it’s positive, which means that the app does not blame the consumer for their choices and tries to leave options open. These two features distinguish the app from the other similar tools and websites out there.
 
-![High fidelity welcome]
-![High fidelity food category]
+![High fidelity welcome](https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/high_fidelity_welcome.png)
+![High fidelity food category](https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/high_fidelity_food_category.png)
 
 ## Dinosavvy on a mission
 
@@ -21,13 +21,13 @@ Starting with this idea, we set off on a journey. The Dinosavvy team of four com
 
 ## UX dilemmas
 
-![Anna user story](https://raw...)
+![Anna user story](https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/Anna_story.png)
 
 Having sketched our users and their stories in Figma (you can appreciate our exquisite drawing skills above), we had a few questions to answer. Does the user have to create an account to access the app? Should we praise the user for making an environmentally-friendly choice? Is it even possible to stay positive, taking into account the seriousness of the climate crisis? How is it possible to formulate a concise answer to a dilemma when all the answers actually start with “It all depends…”? How do we give users the possibility to verify the answers and access the data they are based on without overloading them with information? 
 
 To answer these questions, we started testing early on with a lo-fi prototype. The first testing round already gave us a clear idea about our user's needs and helped correct navigation errors and add useful features. For example, three out of five testers requested a related dilemmas section: even when looking up one question, you want to keep scrolling.
 
-![EcoDilemmaAdvisor low-fidelity prototype]
+![EcoDilemmaAdvisor low-fidelity prototype](https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/low_fidelity_browse_dilemmas.png)
 
 The testing left us no doubt: in a world where you have to enter your details to buy a movie ticket, most users are exhausted by the endless stream of accounts they have to create. As one of our testers put it: "I want to see what an app has to offer before I leave any of my personal details." That is why we gave our users an option to skip personalization and proceed to ask questions straight away. Those who opt for personalization can add their habits to reflect their lifestyles and values. The idea for the future is to adjust answers based on the user's personality with the help of machine learning.
 
@@ -49,7 +49,7 @@ We had a live online meeting every week (30-60 minutes) and communicated via a S
 
 ### UI/UX Design
 
-![EcoDilemmaAdvisor high-fidelity prototype, Dilemma screens]()
+![EcoDilemmaAdvisor high-fidelity prototype, Dilemma screens](https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/high_fidelity_questions.png)
 
 We used Figma for the entire design process, which was great for a remote team like us. It's cloud-based, just like Google Docs. This means that it's always live and up to date and that designers and developers can work on the same file, making communication very smooth.
 
@@ -63,9 +63,9 @@ Most of the code for EcoDilemmaAdvisor was written in **Python**. Python might s
 
 Before coming up with a concrete answer to an eco-related question, we explored the data and tried out different visualizations in **Jupyter Notebooks**. This tool allows having formatted text + an unlimited number of code cells and their output all in one place, in an organized and readable way. For someone who already can write Python code, getting used to Jupyter takes only a couple of hours, and if you want to try it out without bothering to install it first, there is Google Colab, which is very much like Jupyter but runs in the cloud.
 
-All graphs in EcoDilemmaAdvisor are made using **Matplotlib**, a Python library which, despite being huge, is easy to get started with (using this short tutorial, for example).
+All graphs in EcoDilemmaAdvisor are made using **Matplotlib**, a Python library which, despite being huge, is easy to get started with (using [this short tutorial](https://www.earthdatascience.org/courses/scientists-guide-to-plotting-data-in-python/plot-with-matplotlib/introduction-to-matplotlib-plots/), for example).
 
-![Matplotlib bar plot from exploratory Jupyter Notebook]
+![Matplotlib bar plot from exploratory Jupyter Notebook](https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/recycling_plastic_EU_2019.png)
 
 Matplotlib is integrated with **Pandas**, another python library with a handy DataFrame type. The latter looks very much like an Excel table and supports (almost) all imaginable operations on data. With Pandas, importing a .csv into your code is as simple as:
 
@@ -77,7 +77,7 @@ In order to make the calculations run faster, instead of native Python data stru
 
 ### Software development
 
-![App screenshot]
+![App screenshot](https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/app_screenshot.png)
 
 We used **Kivy** and **KivyMD** frameworks to develop the graphical user interface (GUI) for Android and iOS. Kivy is an open-source Python framework for developing mobile apps and other multitouch application software with a natural user interface (NUI). To create a more attractive GUI, KivyMD was used. KivyMD applies the concept of Material Design (developed by Google, https://material.io/design/introduction) to provide widgets that can be used with Kivy. KivyMD framework is similar to Kivy but has a more attractive GUI. In short, you can say that KivyMD depends on Kivy.
 

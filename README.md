@@ -9,6 +9,7 @@
 [UX dilemmas](#ux-dilemmas)<br>
 [Data dilemmas](#data-dilemmas)<br>
 [Tools](#tools)<br>
+[Result](#result)<br>
 [Conclusion](#conclusion)
 
 ## Introduction
@@ -89,9 +90,24 @@ We used **Kivy** and **KivyMD** frameworks to develop the graphical user interfa
 
 Operating with Kivy or KivyMD is relatively straightforward, and we recommend using it for developing simple mobile applications in Python. There's a wide variety of buttons and icons to choose from. To add an icon, you can [search for possible icons](https://materialdesignicons.com/); then you can copy the icon identifier and include it in your Python code. 
 
+## Result
+
+The research we've done for this project influenced our habits. We didn't all become vegans, and none of us went off to lead a carbon-neutral life in a cave. However, we discovered that less radical actions could make a significant difference.
+
+For example:
+1. If you choose poultry and pork instead of beef, the impact of the meat you eat becomes at least three times lower.
+2. It's enough to wash a reusable plastic container 15 times (two weeks of using the same lunchbox) to compensate for high manufacturing impact (compared to single-use plastics). And even if that container is not recycled at the end of use, one worn reusable container in a landfill is much better than a pile of styrofoam shells.
+3. In the EU, households throw away more fruit and vegetables than manufacturers and restaurants combined. So if you eat most of the food you bought before it gets spoiled, it really helps. You "save" not only the food itself but all the resources spent in producing and transporting it.
+
+Don't just take our word for it, check out the [Q&A Jupyters](https://github.com/Jeyana/EcoDilemmaAdvisor/tree/main/jupyter) in the "jupyter" folder in [our github repo](https://github.com/Jeyana/EcoDilemmaAdvisor). We cited the sources diligently and provided graphical representation of the data for most questions.
+
+Low- and high-fidelity prototypes of the app are in [this Figma file](https://www.figma.com/file/9gizYNqChzTnGfj9fJ7akE/EcoDilemmaAdvisor-APP?node-id=0%3A1). This laconic, intuitive and beautiful interface (see high-fidelity) is waiting to be fully implemented.
+
+The entry point of Kyvy MD proof-of-concept app is [frontend/main.py](https://github.com/Jeyana/EcoDilemmaAdvisor/tree/main/frontend). There is an environment.yml file in the repository root folder. It's created with Conda and contains all the requirements for running the app and the Jupyter Notebooks.
+
 ## Conclusion
 
-In the end, we had three main puzzle pieces: a high-fidelity prototype, answers to dozens of eco dilemmas (Chicken, pork or beef? Tea or coffee? etc.), and a skeleton of the app written in Python. None of the team members had experience as a frontend developer, so we didn't manage to create a perfect mobile app in two months, but we put together a decent proof of concept.
+None of the team members had experience as a frontend developer, so we didn't manage to create a perfect mobile app in two months, but we put together a decent proof of concept.
 
 We did not expect the eco dilemmas to be that complicated and tough to answer. Looking for answers is very interesting, though, and we encourage everyone to do it — it might be depressing sometimes, but it gives you plenty of dinner table conversation topics. There are a lot of good sources online to satisfy your curiosity: [Milieucentraal](http://www.milieucentraal.nl) (in Dutch), [Climate change food calculator](https://www.bbc.com/news/science-environment-46459714), or this [book](https://g.co/kgs/fHrmMp) on the carbon footprint of everything, to name a few. 
 

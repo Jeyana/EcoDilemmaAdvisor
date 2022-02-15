@@ -3,12 +3,13 @@
 **Team**: Jeyana Morozenko, Amr Othman, Emilia Azuma, Olga Schilling<br>
 **Mentor**: Bas Visser
 
-## Table of contents
+## Contents
 [Introduction](#introduction)<br>
 [Dinosavvy on a mission](#dinosavvy-on-a-mission)<br>
 [UX dilemmas](#ux-dilemmas)<br>
 [Data dilemmas](#data-dilemmas)<br>
 [Tools](#tools)<br>
+[Results](#results)<br>
 [Conclusion](#conclusion)
 
 ## Introduction
@@ -21,13 +22,13 @@ This is where the EcoDilemmaAdvisor app comes in handy. The goal of the app is t
 
 <img src="https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/high_fidelity_welcome.png" height="700"/> <img src="https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/high_fidelity_food_category.png" height="700"/>
 
-## Dinosavvy on a mission
+## Dinosavvy on a Mission
 
 Starting with this idea, we set off on a journey. The Dinosavvy team of four combined the Data Science and UX Design tracks in equal proportions. However, in the middle of the project, we felt it made more sense to shift more weight to DS as UX was going well. From the very beginning, we limited the scope of the dilemmas to the food category and decided to go for quality instead of quantity in the research. Instant does not mean superficial: quite the opposite, it takes a lot of in-depth study of the subject to develop a concise and fact-driven answer. It became our main focus reflected both in the UX and DS tracks.
 
-## UX dilemmas
+## UX Dilemmas
 
-![Anna user story](https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/Anna_story.png)
+![Anna user story](https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/Anna_story_captions.png)
 
 Having sketched our users and their stories in Figma (you can appreciate our exquisite drawing skills above), we had a few questions to answer. Does the user have to create an account to access the app? Should we praise the user for making an environmentally-friendly choice? Is it even possible to stay positive, taking into account the seriousness of the climate crisis? How is it possible to formulate a concise answer to a dilemma when all the answers actually start with “It all depends…”? How do we give users the possibility to verify the answers and access the data they are based on without overloading them with information? 
 
@@ -39,7 +40,7 @@ The testing left us no doubt: in a world where you have to enter your details to
 
 Upon selecting a dilemma, the user gets an instant answer with a short explanation and a 'Read More' button with expanding content. The latter includes more information on the subject, limitations, graphs, sources and tips. Our users loved it!
 
-## Data dilemmas
+## Data Dilemmas
 
 We started by defining a few dilemmas and diving into the [Eurostat](https://ec.europa.eu/eurostat/web/climate-change/data/database) databases to find the answers. For example, we tried to answer a question on the sustainability of washable plastic containers based on the recycling rate of packaging waste by the type of packaging, but with little success. Every eco dilemma requires analysis of dozens and dozens of data sources, and an answer based on just one dataset will hardly ever be complete.
 
@@ -49,7 +50,7 @@ We focused on what *individuals* can do to reduce their footprint. We questioned
 
 ## Tools
 
-### Communication and collaboration
+### Communication and Collaboration
 
 We had a live online meeting every week (30-60 minutes) and communicated via a Slack group channel between meetings. To collaborate throughout the project, the programmers used Git, and the designers used Figma. We highly recommend both Git and Figma. Git can be intimidating for a beginner, but you definitely need it if you have more than one programmer on the team.
 
@@ -81,7 +82,7 @@ recycling_rate = pandas.read_csv('recycling_rate.csv')
 
 In order to make the calculations run faster, instead of native Python data structures (list, dictionary, set, tuple) Pandas uses ndarray type from **NumPy** library. The bigger the datasets you're using, the more important speed becomes, so NumPy is also a must-know for a data scientist. In our case, the learning order was Python basics -> Matplotlib -> Pandas -> Numpy, and it worked fine.
 
-### Software development
+### Software Development
 
 <img src="https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/app_screenshot.png" alt="App screenshot" width="300"/>
 
@@ -89,9 +90,24 @@ We used **Kivy** and **KivyMD** frameworks to develop the graphical user interfa
 
 Operating with Kivy or KivyMD is relatively straightforward, and we recommend using it for developing simple mobile applications in Python. There's a wide variety of buttons and icons to choose from. To add an icon, you can [search for possible icons](https://materialdesignicons.com/); then you can copy the icon identifier and include it in your Python code. 
 
+## Results
+
+The research we've done for this project influenced our habits. We didn't all become vegans, and none of us went off to lead a carbon-neutral life in a cave. However, we discovered that less radical actions could make a significant difference.
+
+For example:
+1. If you choose poultry and pork instead of beef, the impact of the meat you eat becomes at least three times lower.
+2. It's enough to wash a reusable plastic container 15 times (two weeks of using the same lunchbox) to compensate for high manufacturing impact (compared to single-use plastics). And even if that container is not recycled at the end of use, one worn reusable container in a landfill is much better than a pile of styrofoam shells.
+3. In the EU, households throw away more fruit and vegetables than manufacturers and restaurants combined. So if you eat most of the food you bought before it gets spoiled, it really helps. You "save" not only the food itself but all the resources spent in producing and transporting it.
+
+Don't just take our word for it, check out the [Q&A Jupyters](https://github.com/Jeyana/EcoDilemmaAdvisor/tree/main/jupyter) in the "jupyter" folder in [our github repo](https://github.com/Jeyana/EcoDilemmaAdvisor). We cited the sources diligently and provided graphical representation of the data for most questions.
+
+Low- and high-fidelity prototypes of the app are in [this Figma file](https://www.figma.com/file/9gizYNqChzTnGfj9fJ7akE/EcoDilemmaAdvisor-APP?node-id=0%3A1). EcoDilemmaAdvisor's laconic, intuitive and beautiful interface (see high-fidelity) is waiting to be fully implemented.
+
+The entry point of Kyvy MD proof-of-concept app is [frontend/main.py](https://github.com/Jeyana/EcoDilemmaAdvisor/tree/main/frontend). There is an environment.yml file in the repository root folder. It's created with Conda and contains all the requirements for running the app and the Jupyter Notebooks.
+
 ## Conclusion
 
-In the end, we had three main puzzle pieces: a high-fidelity prototype, answers to dozens of eco dilemmas (Chicken, pork or beef? Tea or coffee? etc.), and a skeleton of the app written in Python. None of the team members had experience as a frontend developer, so we didn't manage to create a perfect mobile app in two months, but we put together a decent proof of concept.
+None of the team members had experience as a frontend developer, so we didn't manage to create a perfect mobile app in two months, but we put together a decent proof of concept.
 
 We did not expect the eco dilemmas to be that complicated and tough to answer. Looking for answers is very interesting, though, and we encourage everyone to do it — it might be depressing sometimes, but it gives you plenty of dinner table conversation topics. There are a lot of good sources online to satisfy your curiosity: [Milieucentraal](http://www.milieucentraal.nl) (in Dutch), [Climate change food calculator](https://www.bbc.com/news/science-environment-46459714), or this [book](https://g.co/kgs/fHrmMp) on the carbon footprint of everything, to name a few. 
 

@@ -3,7 +3,7 @@
 **Team**: Jeyana Morozenko, Amr Othman, Emilia Azuma, Olga Schilling<br>
 **Mentor**: Bas Visser
 
-## Table of contents
+## Contents
 [Introduction](#introduction)<br>
 [Dinosavvy on a mission](#dinosavvy-on-a-mission)<br>
 [UX dilemmas](#ux-dilemmas)<br>
@@ -21,13 +21,13 @@ This is where the EcoDilemmaAdvisor app comes in handy. The goal of the app is t
 
 <img src="https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/high_fidelity_welcome.png" height="700"/> <img src="https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/high_fidelity_food_category.png" height="700"/>
 
-## Dinosavvy on a mission
+## Dinosavvy on a Mission
 
 Starting with this idea, we set off on a journey. The Dinosavvy team of four combined the Data Science and UX Design tracks in equal proportions. However, in the middle of the project, we felt it made more sense to shift more weight to DS as UX was going well. From the very beginning, we limited the scope of the dilemmas to the food category and decided to go for quality instead of quantity in the research. Instant does not mean superficial: quite the opposite, it takes a lot of in-depth study of the subject to develop a concise and fact-driven answer. It became our main focus reflected both in the UX and DS tracks.
 
-## UX dilemmas
+## UX Dilemmas
 
-![Anna user story](https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/Anna_story.png)
+![Anna user story](https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/Anna_story_captions.png)
 
 Having sketched our users and their stories in Figma (you can appreciate our exquisite drawing skills above), we had a few questions to answer. Does the user have to create an account to access the app? Should we praise the user for making an environmentally-friendly choice? Is it even possible to stay positive, taking into account the seriousness of the climate crisis? How is it possible to formulate a concise answer to a dilemma when all the answers actually start with “It all depends…”? How do we give users the possibility to verify the answers and access the data they are based on without overloading them with information? 
 
@@ -39,7 +39,7 @@ The testing left us no doubt: in a world where you have to enter your details to
 
 Upon selecting a dilemma, the user gets an instant answer with a short explanation and a 'Read More' button with expanding content. The latter includes more information on the subject, limitations, graphs, sources and tips. Our users loved it!
 
-## Data dilemmas
+## Data Dilemmas
 
 We started by defining a few dilemmas and diving into the [Eurostat](https://ec.europa.eu/eurostat/web/climate-change/data/database) databases to find the answers. For example, we tried to answer a question on the sustainability of washable plastic containers based on the recycling rate of packaging waste by the type of packaging, but with little success. Every eco dilemma requires analysis of dozens and dozens of data sources, and an answer based on just one dataset will hardly ever be complete.
 
@@ -49,7 +49,7 @@ We focused on what *individuals* can do to reduce their footprint. We questioned
 
 ## Tools
 
-### Communication and collaboration
+### Communication and Collaboration
 
 We had a live online meeting every week (30-60 minutes) and communicated via a Slack group channel between meetings. To collaborate throughout the project, the programmers used Git, and the designers used Figma. We highly recommend both Git and Figma. Git can be intimidating for a beginner, but you definitely need it if you have more than one programmer on the team.
 
@@ -81,7 +81,7 @@ recycling_rate = pandas.read_csv('recycling_rate.csv')
 
 In order to make the calculations run faster, instead of native Python data structures (list, dictionary, set, tuple) Pandas uses ndarray type from **NumPy** library. The bigger the datasets you're using, the more important speed becomes, so NumPy is also a must-know for a data scientist. In our case, the learning order was Python basics -> Matplotlib -> Pandas -> Numpy, and it worked fine.
 
-### Software development
+### Software Development
 
 <img src="https://raw.githubusercontent.com/Jeyana/EcoDilemmaAdvisor/main/images/blogpost/app_screenshot.png" alt="App screenshot" width="300"/>
 

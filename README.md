@@ -9,7 +9,7 @@
 [UX dilemmas](#ux-dilemmas)<br>
 [Data dilemmas](#data-dilemmas)<br>
 [Tools](#tools)<br>
-[Result](#result)<br>
+[Results](#results)<br>
 [Conclusion](#conclusion)
 
 ## Introduction
@@ -90,7 +90,7 @@ We used **Kivy** and **KivyMD** frameworks to develop the graphical user interfa
 
 Operating with Kivy or KivyMD is relatively straightforward, and we recommend using it for developing simple mobile applications in Python. There's a wide variety of buttons and icons to choose from. To add an icon, you can [search for possible icons](https://materialdesignicons.com/); then you can copy the icon identifier and include it in your Python code. 
 
-## Result
+## Results
 
 The research we've done for this project influenced our habits. We didn't all become vegans, and none of us went off to lead a carbon-neutral life in a cave. However, we discovered that less radical actions could make a significant difference.
 

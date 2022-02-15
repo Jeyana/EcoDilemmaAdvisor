@@ -101,7 +101,7 @@ For example:
 
 Don't just take our word for it, check out the [Q&A Jupyters](https://github.com/Jeyana/EcoDilemmaAdvisor/tree/main/jupyter) in the "jupyter" folder in [our github repo](https://github.com/Jeyana/EcoDilemmaAdvisor). We cited the sources diligently and provided graphical representation of the data for most questions.
 
-Low- and high-fidelity prototypes of the app are in [this Figma file](https://www.figma.com/file/9gizYNqChzTnGfj9fJ7akE/EcoDilemmaAdvisor-APP?node-id=0%3A1). This laconic, intuitive and beautiful interface (see high-fidelity) is waiting to be fully implemented.
+Low- and high-fidelity prototypes of the app are in [this Figma file](https://www.figma.com/file/9gizYNqChzTnGfj9fJ7akE/EcoDilemmaAdvisor-APP?node-id=0%3A1). EcoDilemmaAdvisor's laconic, intuitive and beautiful interface (see high-fidelity) is waiting to be fully implemented.
 
 The entry point of Kyvy MD proof-of-concept app is [frontend/main.py](https://github.com/Jeyana/EcoDilemmaAdvisor/tree/main/frontend). There is an environment.yml file in the repository root folder. It's created with Conda and contains all the requirements for running the app and the Jupyter Notebooks.
 
